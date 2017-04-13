@@ -1,0 +1,378 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页-{dede:global.cfg_webname/}</title>
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="/templets/m/assets/i/favicon.png">
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="/templets/m/assets/i/app-icon72x72@2x.png">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="apple-touch-icon-precomposed" href="/templets/m/assets/i/app-icon72x72@2x.png">
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="templets/m/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+  <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+  <link rel="stylesheet" href="/templets/m/assets/css/app.css">
+  <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/templets/m/assets/js/fontscroll.js"></script>
+  <style type="text/css">
+    .hidden{display:none;}
+  </style>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a
+  href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+  <!-- header -->
+  {dede:include filename='head.htm'/}
+  <!-- end header -->
+
+  <!--轮播图-->
+  <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}'>
+    <ul class="am-slides">
+      {dede:arclist typeid=29}
+        <li>
+          <img src="[field:picname/]">
+        </li>
+      {/dede:arclist}
+    </ul>
+  </div>
+
+  <div class="am-g">
+    <div class="am-u-sm-4 am-u-sm-centered textalign titlecolor">项目优势</div>
+  </div>
+  <ul data-am-widget="gallery" class="am-gallery am-avg-sm-4
+  am-avg-md-3 am-avg-lg-4 am-gallery-default" >
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=6}
+          <a href="[field:typelink/]#3" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/fl.png" alt="完善的社会福利" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=6}
+          <a href="[field:typelink/]#2" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/yf.png" alt="低额的预付款" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=6}
+          <a href="[field:typelink/]#4" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/dz.png" alt="一站式定制服务" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=6}
+          <a href="[field:typelink/]#1" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/hz.png" alt="全程透明的合作" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=1}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/lj.jpg" alt="移民领域的领军企业" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=7}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/zs.jpg" alt="签证成功案例展示" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=8}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/vip.jpg" alt="五星vip服务" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=3}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/lc.jpg" alt="移民办理流程" />
+        </a>
+      </div>
+    </li>
+  </ul>
+  <div class="am-g margin-bottom">
+    <div class="am-u-sm-4 am-u-sm-centered textalign titlecolor">我们的服务</div>
+  </div>
+  <div class="am-u-sm-12">
+    <div data-am-widget="slider" class="am-slider am-slider-c2" data-am-slider='{"directionNav":false}'>
+      <ul class="am-slides">
+        <li>
+          <img src="/templets/m/assets/i/stu1.jpg">
+          <div class="am-slider-desc">波兰的教育体系在欧洲享有很高的地位，公立教育免费，诞生了哥白尼、居里夫人、萧邦等众多名人。</div>
+        </li>
+        <li>
+          <img src="/templets/m/assets/i/stu2.jpg">
+          <div class="am-slider-desc">同欧洲诸国一样，波兰拥有良好的全民医疗体系，政府全额承担公民的医疗费用。</div>
+        </li>
+        <li>
+          <img src="/templets/m/assets/i/stu3.jpg">
+          <div class="am-slider-desc">波兰的自然环境极佳，有极高的森林覆盖率。首都华沙是森林覆盖率最高的城市。</div>
+        </li>
+        <li>
+          <img src="/templets/m/assets/i/stu4.jpg">
+          <div class="am-slider-desc">波兰自2008年经济危机之后，其经济发展速度一直位居欧盟前列。据统计，2015波兰人均实际购买力，已经接近20000美金，是欧洲经济新星。</div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <ul data-am-widget="gallery" class="am-gallery am-avg-sm-1
+  am-avg-md-3 am-avg-lg-4 am-gallery-default">
+    <li>
+      <div class="am-gallery-item">
+        <a href="#" class="">
+          <img src="/templets/m/assets/i/ymys.png" alt="移民领域的领军企业" />
+        </a>
+      </div>
+    </li>
+  </ul>
+  <ul data-am-widget="gallery" class="am-gallery am-avg-sm-4
+  am-avg-md-3 am-avg-lg-4 am-gallery-default" >
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=41}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/per1.jpg" alt="教育" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=42}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/per2.jpg" alt="医疗" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=27}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/per3.jpg" alt="投资" />
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        {dede:type typeid=28}
+          <a href="[field:typelink/]" class="">
+        {/dede:type}
+          <img src="/templets/m/assets/i/per4.jpg" alt="生活" />
+        </a>
+      </div>
+    </li>
+  </ul>
+  <div class="am-g">
+    <div class="am-u-sm-4 am-u-sm-centered textalign titlecolor">波兰风情</div>
+  </div>
+  <ul data-am-widget="gallery" class="am-gallery am-avg-sm-3 am-gallery-imgbordered" >
+    <li>
+      <div class="am-gallery-item">
+        <a href="###"><img src="/templets/m/assets/i/fq1.jpg" alt="" />
+          <!-- <h3 class="am-gallery-title">波兰，一个历史与现实的美妙交织的国度。这里有千年的文明，有璀璨的艺术，更有令人垂涎的美食和绚丽的自然风光。让新欧移民带您走进波兰，去领略她的绝世风采！</h3> -->
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        <a href="###"><img src="/templets/m/assets/i/fq2.jpg" alt="" />
+          <!-- <h3 class="am-gallery-title">我们帮您申请的是雇主担保移民，不需要买房，不需要投资，也不需要买国债。让您真正享受等同于欧洲居民的高福利！绝对是您申请居留证最佳性价比的项目。</h3> -->
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="am-gallery-item">
+        <a href="###"><img src="/templets/m/assets/i/fq3.jpg" alt="某天 也许会相遇 相遇在这个好地方" />
+          <!-- <h3 class="am-gallery-title">某天 也许会相遇 相遇在这个好地方</h3> -->
+        </a>
+      </div>
+    </li>
+  </ul>
+  <div class="am-g">
+    <div class="am-u-sm-4 am-u-sm-centered textalign titlecolor">我们的团队</div>
+  </div>
+  <div class="am-slider am-slider-default am-slider-carousel" data-am-flexslider="{itemWidth: 108, itemMargin: 5, slideshow: false}" style="width:320px; margin: 0 auto; margin-bottom: 20px;">
+    <ul class="am-slides">
+      <li><img src="/templets/m/assets/i/p1.jpg"/>
+        <h3 class="am-gallery-title" style="font-size: 12px">elena 项目专员</h3>
+</li>
+<li><img src="/templets/m/assets/i/p2.jpg" />
+  <h3 class="am-gallery-title" style="font-size: 12px">Lisa 项目专员</h3>
+</li>
+<li><img src="/templets/m/assets/i/p3.jpg" />
+  <h3 class="am-gallery-title" style="font-size: 12px">Sally 项目总监</h3>
+</li>
+<li><img src="/templets/m/assets/i/p4.jpg" />
+  <h3 class="am-gallery-title" style="font-size: 12px">James 项目专员</h3>
+</li>
+<li><img src="/templets/m/assets/i/p5.jpg" />
+  <h3 class="am-gallery-title" style="font-size: 12px">Timothy 项目专员</h3>
+</li>
+<li><img src="/templets/m/assets/i/p6.jpg" />
+  <h3 class="am-gallery-title" style="font-size: 12px">jack 总经理</h3>
+</li>
+</ul>
+</div>
+
+  <div class="am-g">
+    <div class="am-u-sm-4 am-u-sm-centered textalign titlecolor">新闻资讯</div>
+  </div>
+  
+  <!-- <div data-am-widget="list_news" class="am-list-news am-list-news-default caselist">
+    <div class="hidden">
+      {dede:arclist row=100000 typeid=30}
+        <li class="am-g am-list-item-dated">
+          <a href="[field:arcurl/]" class="am-list-item-hd " target="_blank">[field:fulltitle/]</a>
+          <span class="am-list-date">[field:pubdate function="GetDateMK(@me)"/] </span>
+        </li>
+      {/dede:arclist}
+    </div>
+
+    <div class="am-list-news-bd">
+      <ul class="list am-list">数据加载中，请稍后...</ul>
+    </div>
+    
+    <div class="more am-list-news-ft"><a class="am-list-news-more am-btn am-btn-default" href="javascript:;" onClick="caselist.loadMore();">显示更多+</a></div>
+  </div> -->
+
+  <div id="FontScroll">
+      <ul>
+        {dede:arclist row=100000 typeid=30}
+          <li><a href="[field:arcurl/]" target="_blank"><font>[field:fulltitle/]</font><span>[field:pubdate function="GetDateMK(@me)"/]</span></a></li>
+        {/dede:arclist}
+      </ul>
+  </div>
+
+  <!--更多在底部-->
+  <div class="am-list-news-ft">
+    <a class="am-list-news-more am-btn am-btn-default " href="/m/a/news/">查看更多</a>
+  </div>
+
+<!-- tel -->
+  <div class="tel">
+    <a href="tel:4000-3232-72"><span class="am-icon-phone">4000-3232-72</span></a>
+  </div>
+<!-- end tel -->
+<!--bottom-->
+  <footer data-am-widget="footer" class="am-footer am-footer-default" data-am-footer="{  }">
+    <div class="am-footer-miscs ">
+      </p>
+      <p>Copyright © 2016 广州新欧移民咨询有限公司 版权所有</p>
+      <p>粤ICP备16070193号</p>
+    </div>
+  </footer>
+<!--bottom-->
+
+  <div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+    <a href="#top" title="回到顶部">
+      <span class="am-gotop-title">回到顶部</span>
+      <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+  </div>
+
+  <!--[if (gte IE 9)|!(IE)]><!-->
+  <!-- <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script> -->
+  <!--<![endif]-->
+  <!--[if lte IE 8 ]>
+  <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+  <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+  <![endif]-->
+  <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+
+  <!-- <script>
+    var _content = []; //临时存储li循环内容
+    var caselist = {
+      _default:5, //默认显示图片个数
+      _loading:5,  //每次点击按钮后加载的个数
+      init:function(){
+        var lis = $(".caselist .hidden li");
+        $(".caselist ul.list").html("");
+        for(var n=0;n<caselist._default;n++)
+        {
+          lis.eq(n).appendTo(".caselist ul.list");
+        }
+        $(".caselist ul.list img").each(function(){
+          $(this).attr('src',$(this).attr('realSrc'));
+        })
+        for(var i=caselist._default;i<lis.length;i++){
+          _content.push(lis.eq(i));
+        }
+        $(".caselist .hidden").html("");
+      },
+      loadMore:function(){
+        var mLis = $(".caselist ul.list li").length;
+        for(var i =0;i<caselist._loading;i++){
+          var target = _content.shift();
+          if(!target){
+            $('.caselist .more').html("<p>全部加载完毕...</p>");
+            break;
+          }
+          $(".caselist ul.list").append(target);
+          $(".caselist ul.list img").eq(mLis+i).each(function(){
+            $(this).attr('src',$(this).attr('realSrc'));
+          });
+        }
+      }
+    }
+    caselist.init();
+  </script> -->
+  <script type="text/javascript">
+
+    $(function(){
+
+        $('#FontScroll').FontScroll({time: 1800,num: 1});
+
+    });
+
+  </script>
+
+</body>
+
+</html>

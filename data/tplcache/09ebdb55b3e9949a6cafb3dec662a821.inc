@@ -1,0 +1,1 @@
+<li class="vsrp_div" style="list-style: none"><a href="[field:arcurl/]">[field:title/]</a><span class="vrsp_date"> -- [field:pubdate function=MyDate('Y-m-d',@me)/]</span></li>

@@ -1,0 +1,59 @@
+<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<header id="Header">
+<!-- .header_placeholder 4sticky  -->
+<div class="header_placeholder" style="height: 171px;"></div>
+
+<div id="Top_bar" class="is-sticky" style="top: 0px;">
+
+	<div class="container">
+		<div class="column one">
+		
+			<div class="top_bar_left clearfix" style="width: 1893px;">
+			
+				<!-- .logo -->
+				<div class="logo">
+					{dede:arclist row=1 orderby=id typeid=37}
+					<a id="logo" href="/">
+					<img class="logo-main   scale-with-grid" src="[field:litpic/]">
+					<img class="logo-sticky scale-with-grid" src="[field:litpic/]">
+					<img class="logo-mobile scale-with-grid" src="[field:litpic/]" >
+					</a>	
+					{/dede:arclist}
+				<div class="telefono">
+				<span class="themecolor-big">
+				<i class="fa fa-tty" aria-hidden="true"></i> {dede:global.qgrx/}</span></div>
+				</div>
+
+			
+				<div class="menu_wrapper">
+                <div id="menu-effettivo" style="max-width:960px;position:relative:margin:0 auto;">
+					<nav id="menu" class="menu-menu-container"><ul id="menu-menu" class="menu"><li id="menu-item-454"  {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='current_page_item' ":@me="";{/dede:field}><a href="{dede:global.cfg_indexurl/}"><span>首页</span></a></li>
+
+
+{dede:channelartlist typeid=1,2,3,4} 
+<li id="menu-item-269" {dede:field.currentstyle/}><a href="{dede:field name='typeurl'/}"><span>{dede:field name='typename'/}</span></a>
+<ul class="sub-menu">
+	{dede:channel type=son noself=yes}
+	<li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="[field:typelink/]"><span>[field:typename/]</span></a></li>
+{/dede:channel}
+</ul>
+<span class="menu-toggle"></span></li>
+{/dede:channelartlist}
+
+
+{dede:channelartlist typeid=5,6,7,8,9,10 }
+<li id="menu-item-161" {dede:field.currentstyle/}><a href="{dede:field name='typeurl'/}"><span>{dede:field name='typename'/}</span></a></li>
+{/dede:channelartlist}
+
+
+</ul></nav>					
+				</div>
+                
+                </div>			
+			</div>	
+		</div>
+	</div>
+</div>	
+</header>
+                            
+                            

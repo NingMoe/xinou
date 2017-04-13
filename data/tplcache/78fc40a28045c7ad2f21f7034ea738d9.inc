@@ -1,0 +1,4 @@
+<dl class='gallery-item'>
+				<dt class='gallery-icon portrait'>
+					<a href='http://worldcapitalimmi.cn/wp-content/uploads/2015/10/print12.jpg'><img width="150" height="150" src="http://worldcapitalimmi.cn/wp-content/uploads/2015/10/print12-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="print12" srcset="http://worldcapitalimmi.cn/wp-content/uploads/2015/10/print12-150x150.jpg 150w, http://worldcapitalimmi.cn/wp-content/uploads/2015/10/print12-80x80.jpg 80w, http://worldcapitalimmi.cn/wp-content/uploads/2015/10/print12-85x85.jpg 85w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+				</dt></dl>

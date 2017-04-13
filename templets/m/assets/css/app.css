@@ -1,0 +1,118 @@
+/* Write your styles */
+.am-g.margin-bottom {
+    margin-bottom: 10px;
+}
+.ymys.margin-bottom {
+    margin-bottom: 2px;
+}
+
+.am-g .textalign{text-align: center;}
+.am-g .titlecolor{color: #de000d;    text-align: center;}
+.am-u-sm-12 .ymys img{width:50%;}
+.am-u-sm-5 .list1 img{width:48%;margin-right: 2%;float: left;/* margin-top: 5%; */}
+
+.colornews{color:#333; font-weight: normal;}
+.am-list .am-list-item-dated a {
+    padding-right: 80px;
+    display: block;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+
+}
+.am-header-default {
+    background-color: #CE000D;
+}
+
+.am-list>li {
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color: #fff;
+   border:none;
+    border-width: 1px 0;
+}
+.am-list-news-default .am-list .am-list-item-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 1.3em;
+    -webkit-line-clamp: 2;
+    max-height: 4em;
+}
+.am-list-news-default .am-list .am-list-item-desced .am-list-item-text .abouttext {
+    margin-top: 2rem;    
+}
+.contactli p {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*提交按钮*/
+button.am-btn.am-btn-secondary.tj {
+    /* color: red; */
+    background: #CE000D;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+.fromstyle{font-weight: normal;}
+.am-tabs-default .am-tabs-nav>.am-active a {
+    background-color: #CE000D;
+    color: #fff;
+}
+.tel {
+    font-size: 22px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    bottom: 45px;
+    z-index: 999;
+    width: 100%;
+    min-height: 50px;
+    overflow: hidden;
+    border-radius: 0;
+    text-align: center;
+    background: rgba(206,0,13,0.5);
+    position:fixed;
+    bottom:0px;
+}
+.tel a{ color:#fff;}
+
+.am-list-news-ft {
+    text-align: center;
+    margin-top: 20px;
+}
+#FontScroll{width:100%;height:200px;line-height:30px;overflow:Hidden;padding:5px 0;margin:0 auto;}
+#FontScroll ul{width:100%; margin:0 auto;}
+#FontScroll ul li{list-style: none;    
+    color: #333;text-align: left;word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;height:45px; line-height: 45px;}
+#FontScroll ul li font span{ float: left; }
+#FontScroll ul li font{    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 70%;
+    display: block;
+    float: left;}
+#FontScroll .line{text-align:center;width:100%;}
+
+#FontScroll ul li a{color: #333;}
+
+/*修改关于我们边距*/
+.am-paragraph-default {
+    margin: 0!important;
+    color: #626262;
+    background-color: transparent;
+}
+.sstyle{ color: #626262;font-size: 1.6rem }

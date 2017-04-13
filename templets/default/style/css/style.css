@@ -1,0 +1,64 @@
+/*初始化条件*/
+*{margin:0px;padding:0px;}
+li{list-style:none;}
+a{text-decoration:none;}
+/*body{font-family:微软雅黑;}*/
+.clear{clear:both;}
+
+.us{width:960px;color:#fff;margin:0 auto;background-color: #fff;margin-top:30px;margin-bottom:30px;padding-bottom:20px;}
+.us .top img{width:100%;}
+.us .wz{width:100%;color:#FF0000;font-size:28px;font-weight:600;margin:10px 0px 10px 0px;margin-left:14px;}
+.us .con ul li{float:left;width:460px;margin:10px;height:350px;overflow:hidden;}
+.us .con ul li img{width:100%;}
+.us .con ul li div{width:100%;color:#626262;display:table-cell;vertical-align:middle;height:350px;}
+
+.xm{width:960px;color:#fff;margin:0 auto;box-shadow:1px 1px 6px #ccc;background-color: #fff;margin-top:30px;margin-bottom:30px;padding-bottom:20px;}
+.xm .top img{width:100%;}
+.xm .wz{width:100%;text-align:center;color:#FF0000;font-size:25px;margin:10px 0px 10px 0px;font-weight:600;margin-bottom:20px;}
+.xm .des{color:#808080;line-height:26px;text-indent:20px;}
+.xm .con{width:100%;margin-top:20px;}
+.xm .con .left{float:left;margin-top:20px;}
+.xm .con .left img{width:450px;}
+.xm .con .right{float:right;width:450px;margin-top:30px;margin-right:50px;}
+.xm .con .right p{color:#808080;}
+.xm .con .line{border-bottom:1px solid #EBEBEB;width:100%;}
+
+.contact{width:960px;color:#fff;margin:0 auto;box-shadow:1px 1px 6px #ccc;padding-bottom:30px;background-color: #fff;margin-top:30px;margin-bottom:30px;padding-bottom:20px;overflow:hidden;}
+.contact .wz{width:100%;color:#FF0000;font-size:28px;font-weight:600;margin:30px 0px 10px 0px;margin-bottom:20px;margin-left:14px;}
+.contact .con-3{margin-top:30px;}
+.contact .con-3 ul li{float:left;width:292px;height:233px;margin:14px;color:#626262;}
+.contact .con-3 ul li div{height:233px;display:table-cell;vertical-align:middle;}
+.contact .con-3 ul li img{width:100%;}
+.contact .con-3 ul li span{font-weight:600;}
+.contact .con-3 ul li p{margin-top:10px;}
+.contact .con-2{margin-top:30px;}
+.contact .con-2 .left{float:left;width:300px;height:460px;margin-left:14px;}
+.contact .con-2 .left img{width:100%;height:100%;}
+.contact .con-2 .right{float:right;width:600px;height:400px;margin-right:14px;}
+.contact .bot{margin-top:30px;}
+.contact .bot .left{float:left;width:530px;margin-left:14px;}
+.contact .bot .left img{width:100%;}
+.contact .bot .right{float:right;width:385px;margin-right:14px;}
+.contact .bot .right img{width:100%;}
+
+.case{width:960px;color:#fff;margin:0 auto;box-shadow:1px 1px 6px #ccc;padding-bottom:30px;background-color: #fff;margin-top:30px;margin-bottom:30px;padding-bottom:20px;}
+.case .top{width:100%;margin:0 auto;}
+.case .top img{width:100%;}
+.case .wz{width:100%;color:#FF0000;font-size:28px;font-weight:600;margin:30px 0px 10px 0px;margin-bottom:20px;margin-left:14px;}
+.case .con .left{float:left;width:300px;margin:14px;height:200px;}
+.case .con .right{float:right;width:600px;height:200px;margin:14px;color:#626262;}
+.case .con .right div{display:table-cell;vertical-align:middle;height:200px;}
+.case .line{width:100%;border-bottom:1px solid #ccc;}
+
+.vip .vip-t{width:1000px;background-color: #fff;margin:30px auto;box-shadow:1px 1px 6px #ccc;background-color: #fff;margin-top:30px;margin-bottom:30px;padding-bottom:20px;}
+.vip .vip-t img{width:100%;margin-top:2%;}
+.vip .vip-c{width:960px;background-color: #fff;margin:0 auto;box-shadow:1px 1px 6px #ccc;overflow:hidden;padding-bottom:30px;background-color: #fff;margin-top:30px;margin-bottom:30px;padding-bottom:20px;}
+.vip .vip-c .title{width:420px;height:20px;background-color: #DE000D;margin-left:14px;margin-top:20px;color:#fff;padding-left:10px;line-height:20px;font-weight:600;}
+.vip .vip-c .left{float:left;width:420px;margin-top:30px;margin-left:14px;}
+.vip .vip-c .left span{font-weight:600;}
+.vip .vip-c .left p{margin-top:5px;margin-bottom:30px;}
+.vip .vip-c .right{float:right;width:500px;}
+.vip .vip-c .right ul li{float:left;width:210px;height:138px;margin-left: 32px;margin-top: 35px;overflow:hidden;}
+.vip .vip-c .right ul li img{width:100%;}
+.vip .vip-c .bot ul li{float:left;width:210px;height:138px;margin-left:26px;}
+.vip .vip-c .bot ul li img{width:100%;}

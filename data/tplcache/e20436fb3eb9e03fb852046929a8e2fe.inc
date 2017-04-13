@@ -1,0 +1,1 @@
+<a id="logo" href="/"><img class="logo-main   scale-with-grid" src="[field:litpic/]"><img class="logo-sticky scale-with-grid" src="[field:litpic/]"><img class="logo-mobile scale-with-grid" src="[field:litpic/]" ></a>

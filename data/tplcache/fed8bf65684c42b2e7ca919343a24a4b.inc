@@ -1,0 +1,1 @@
+<li><img src="[field:picname/]"	widht="50" height="30"> </li>

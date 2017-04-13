@@ -1,0 +1,52 @@
+<header data-am-widget="header" class="am-header am-header-default">
+    <div class="am-header-left am-header-nav">
+      <a href="/m/index.html" class="">
+        <i class="am-header-icon am-icon-home"></i>
+      </a>
+    </div>
+    <h1 class="am-header-title">
+      <img src="/templets/m/assets/i/amazeui-cw.png" />
+    </h1>
+    <nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1" data-am-menu-offcanvas>
+      <a href="javascript: void(0)" class="am-menu-toggle">
+        <i class="am-menu-toggle-icon am-icon-bars"></i>
+      </a>
+
+      <div class="am-offcanvas">
+        <div class="am-offcanvas-bar am-offcanvas-bar-flip">
+
+          <ul class="am-menu-nav am-avg-sm-1">
+            <li class=""><a href="{dede:field name='weburl'/}" class="">首页</a></li>
+            {dede:type typeid=1}
+              <li class="">
+                <a href="[field:typeurl/]" class="">[field:typename/]</a>
+              </li>
+            {/dede:type}
+            {dede:channelartlist typeid=2,3,4}
+              <li class="am-parent">
+                <a href="{dede:field name='typeurl'/}" class="">{dede:field name='typename'/}</a>
+                <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
+                  {dede:channel type=son noself=yes}
+                    <li class="">
+                      <a href="[field:typelink/]" class="">[field:typename function="cn_substr(@me,9)"/]</a>
+                    </li>
+                  {/dede:channel}
+                </ul>
+              </li>
+            {/dede:channelartlist}
+            {dede:channelartlist typeid=5,6,7,8,9,10 }
+              <li class="">
+                <a href="{dede:field name='typeurl'/}" class="">{dede:field name='typename'/}</a>
+              </li>
+            {/dede:channelartlist}
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+
+

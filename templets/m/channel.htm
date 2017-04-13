@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>渠道合作</title>
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="/templets/m/assets/i/favicon.png">
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="/templets/m/assets/i/app-icon72x72@2x.png">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="apple-touch-icon-precomposed" href="/templets/m/assets/i/app-icon72x72@2x.png">
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="templets/m/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+  <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+  <link rel="stylesheet" href="/templets/m/assets/css/app.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a
+  href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+  <!-- header -->
+  {dede:include filename='head.htm'/}
+  <!-- end header -->
+
+  <!--走进波兰-->
+  <!--pic-->
+  <div class="am-g">
+    <div class="am-u-sm-12 am-u-sm-centered"><img src="/templets/m/assets/i/1-160Z1205123345.jpg" class="am-img-responsive" alt="" /></div>
+  </div>
+  <div class="am-g">
+    <div class="am-u-sm-12 am-u-sm-centered titlecolor">渠道合作</div>
+    <p style="width:90%;font-size:18px;margin:0 auto;color:#626262;">为了满足我司不断增长的业务量和客户需求的扩张，现真诚欢迎海外华人中介与我司开展战略合作！</p>
+  </div>
+
+  <!--tj-->
+  <form action="/plus/diy.php" enctype="multipart/form-data" method="post" class="am-form am-u-sm-12">
+    <fieldset>
+      <div class="am-form-group">
+        <input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="1" />
+        <input type="hidden" name="do" value="2" />
+        <input type="hidden" name="dede_fields" value="name,text;email,text;problem,multitext" />
+        <input type="hidden" name="dede_fieldshash" value="8a654085fb4351cd1699cd46e767270b" />
+
+        <label for="doc-vld-name" class="fromstyle">姓名：</label>
+        <input type="text" name="name" id="doc-vld-name" minlength="3" class="am-form-field" required/>
+        <label for="doc-vld-name" class="fromstyle">电子邮箱：</label>
+        <input type="email" name='email' id="doc-vld-name" minlength="3" class="am-form-field" required/>
+        <label for="doc-vld-name" class="fromstyle">您的问题：</label>
+        <textarea type="text" name='problem' id="doc-vld-2" minlength="10" maxlength="100" class="am-form-field" required/></textarea>
+      </div>
+      <button class="am-btn am-btn-secondary tj" type="submit">提交</button>
+    </fieldset>
+  </form>
+
+  <!-- footer -->
+  {dede:include filename='footer.htm'/}
+  <!-- end footer -->
+
+  <!--[if (gte IE 9)|!(IE)]><!-->
+  <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+  <!--<![endif]-->
+  <!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+  <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+
+</body>
+
+</html>
